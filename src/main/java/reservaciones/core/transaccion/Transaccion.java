@@ -16,7 +16,6 @@ import reservaciones.core.reservahabitacion.Reservahabitacion;
 @Data
 @Entity
 public class Transaccion {
-        //Atributos de la clase Usuario
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO )
     private long id;
