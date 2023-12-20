@@ -23,6 +23,10 @@ public class Reservahabitacion {
     private LocalDate fechasalida;
     private boolean estado;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> af2ec4a366b0b3b2c43fdfdd95b50b995bccdaa7
     @ManyToOne
     private Habitaciones habitaciones;
     }
