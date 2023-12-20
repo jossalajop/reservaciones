@@ -2,8 +2,6 @@ package reservaciones.core.reservahabitacion;
 
 import java.time.LocalDate;
 
-import org.springframework.security.core.userdetails.User;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -24,9 +22,6 @@ public class Reservahabitacion {
     private LocalDate fechaentrada;
     private LocalDate fechasalida;
     private boolean estado;
-
-    @ManyToOne
-    private User user;
 
     @ManyToOne
     private Habitaciones habitaciones;
